@@ -1,18 +1,17 @@
 import AboutUs from './About';
-import style from "./AboutUs.module.css";
 import image6 from "../../images/Lari.jpg";
 import image7 from "../../images/Carol.jpg";
 import image8 from "../../images/Zih.jpg";
-
+// import "./AboutUs.module.css"
 
 
 function Us() {
   return (
-    <div className={style.cards}>
-      <h1 className={style.h1}>The Team</h1>
-      <div className={style.cardsContainers}>
-        <div className={style.container}>
-          <ul className={style.cardItem}>
+    <div className="cards">
+    <h1 className="card-title">The Team</h1>
+    <div className="cards-containers">
+      <div className='cards-wrapper'>
+        <ul className='cards-items'>
             <AboutUs
               src={image6}
               text="My name is Larissa, I'm 26 years old, brazilian, and I love travelling. I have lived in Ireland and Italy besides Brazil, and I plan to travel a lot more around the world. I'm currentlly studying web-development  at Ironhack bootcamp, and here's my Linkedin profile to connect: https://www.linkedin.com/in/larissa-bueno-a7a828214"

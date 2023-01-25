@@ -12,7 +12,7 @@ function Cards() {
       <h1 className="card-title">Top 5 safest countries for solo female travallers</h1>
       <div className="cards-containers">
         <div className='cards-wrapper'>
-          <ul className='cards-items'>
+          <div className='cards-items'>
             <CardItem
               src={images}
               text='Journey along epic trails, hike to mountain peaks and discover the stunning landscapes of Ireland and visit the top 1 safest country in the world.'
@@ -25,7 +25,7 @@ function Cards() {
               label='2- Iceland'
               path='country-list/ISL'
             />
-          </ul>
+          </div>
           <ul className='cards-items'>
             <CardItem
               src={images3}
